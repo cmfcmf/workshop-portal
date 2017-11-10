@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 ruby '2.2.2'
 
+gem "brakeman", :require => false
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.7.1'
 # Use SCSS for stylesheets
@@ -83,7 +86,7 @@ gem 'rubocop', '~> 0.29.1'
 
 # OWl Carousel for nice Slideshows
 # https://github.com/acrogenesis/owlcarousel-rails
-gem 'owlcarousel-rails', github: 'acrogenesis/owlcarousel-rails', branch: 'OwlCarousel2'
+gem 'owlcarousel-rails'
 
 # coveralls.io
 gem 'coveralls', require: false
