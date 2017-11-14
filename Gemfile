@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.2'
 
 gem "brakeman", :require => false
+gem "ruby-lint"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -78,7 +79,7 @@ gem 'cancancan'
 gem 'has_scope'
 
 # Static code analysis
-gem 'rubocop', '~> 0.29.1'
+# gem 'rubocop', '~> 0.29.1'
 
 # DSL for building forms
 # See https://github.com/plataformatec/simple_form
